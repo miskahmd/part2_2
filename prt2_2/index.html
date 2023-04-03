@@ -1,0 +1,184 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+     http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd>
+
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>  
+    <title>Best Coffee Shop</title>
+    <!--css-->
+    <link rel="stylesheet" href="assests/css/style1.css" media="screen">
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="assests/css/bootstrap.min.css">
+
+    <meta name="description" content="Search the best coffee shop based on the user requirements">
+    <meta name="keywords" content="find,best,Coffee,Shop,for,studying,meeting,birthday">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+</head>
+
+<body>
+
+    
+    <div class="container-fluid" >
+        <!--header bar: logo menu/dropdawn-menu-->
+        <nav class="navbar navbar-expand-md">
+            <a href="#" class="navbar-bcs"><img src="assests/imgs/logo.png" alt="Best Coffee Shop website logo" width="20%"></a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#x"><span class="navbar-toggler-icon"></span></button>            
+            <ul id="x" class="navbar-nav collapse navbar-collapse">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact us</a></li>
+                <li class="nav-item"><a class="nav-link" href="search.html">Advanced Search</a></li>
+
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search Coffee Shop" aria-label="Search">
+                    <button class="btn btn-outline-secondary" type="submit">Search</button>
+                </form>
+
+            </ul>
+        </nav>
+
+    </div>
+
+    
+    <!--header ground: logo qoute registration-btn-->
+    <section class="header">
+        <img src="assests/imgs/logo.png" alt="Best Coffee Shop website logo" width="30%">
+        <blockquote><p>FIND YOUR BEST DESTINATION</p></blockquote>
+        <a href="regester.html" class="register">Sign up/ Login</a>
+    </section>
+
+    <div class="container">
+        <!--search part: button for each category-->
+        <div class="row justify-content-around">
+            <h2> Find coffee shops for </h2>
+            <hr/>
+            <div class="col-md-3">
+                <a href="">
+                    <img id="img-sbtn" src="assests/imgs/study-btn.png" alt="BCS search button for study">
+                </a>
+                <div id="btn-title">
+                    <h3>Studying</h3>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <a href="meeting.html">
+                    <img id="img-sbtn" src="assests/imgs/meet-btn.png" alt="BCS search button for meeting">
+                </a>
+                <div id="btn-title">
+                    <h3>Meeting</h3>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <a href="">
+                    <img id="img-sbtn" src="assests/imgs/bparty-btn.png" alt="BCS search button for birthday party">
+                </a>
+                <div id="btn-title">
+                    <h3>Birthday</h3>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <a href="search.html">
+                    <img id="img-sbtn" src="assests/imgs/others-btn.png" alt="BCS search button for others">
+                </a>
+                <div id="btn-title">
+                    <h3>Others</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+
+    <!--News part-->
+    <div class="container">
+        <h2>Coffee Shops News</h2>
+        <hr/>
+        <div class="cards">
+            <div class="card">
+                <img src="assests/imgs/aventus1.jpg" alt="Aventus news" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Aventus new products </h5>
+                    <hr>
+                    <p class="card-text">Aventus new products from the french kitchen,
+                        Classic Millefogli, and Vanilla Millefogli, are now in the
+                        Suhar branch and soon in other branches.</p>
+                    <a href="" class="btn btn-outline-secondary">See Resource</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="assests/imgs/ch1bk.jpg" alt="Chapter One Book news" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title"> Book a table in Chapter One Book café </h5>
+                    <hr>
+                    <p class="card-text">Now you can book a table on your way 
+                        to Chapter One Book café, call 24544234!</p>
+                    <a href="" class="btn btn-outline-secondary">See Resource</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="assests/imgs/roselle.jpg" alt="Roselle Bakery & Cafe news" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Roselle Bakery & Cafe new branch</h5>
+                    <hr>
+                    <p class="card-text">Roselle Bakery & Cafe is now open in Qurum.</p>
+                    <br/>
+                    <a href="" class="btn btn-outline-secondary">See Resource</a>
+                </div>
+            </div>
+     </div>
+    </div>
+
+    <!--offers & sales part-->
+    <div class="container">
+        <h2>Coffee Shops Offers & Sales</h2>
+        <hr/>
+        <!--Sliding between the images of coffee shops offers & sales -->
+        <div class="slideshow-container">
+
+            <a href="#">
+                <div class="mySlides"> 
+                    <img id="sl-img" src="assests/imgs/sld1.jpg" alt="">
+                    <div id="sld-view"><h3>View</h3></div>
+                </div>
+            </a>
+          <!--  <div class="mySlides">
+                <img id="sl-img" src="assests/imgs/sld2.jpg" alt="">
+            </div>
+            <div class="mySlides">
+                <img id="sl-img" src="assests/imgs/sld3.jpg" alt="">
+            </div> -->
+            
+            
+            <a class="prev"> ❮ </a>
+            <a class="next"> ❯ </a>
+            
+            </div>
+
+
+            <div style="text-align:center">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+            </div>
+
+    </div> 
+    <br/>
+    <br/>
+
+
+</body>
+<footer style="background-color: #a18716;">
+    <br>
+    <p style="text-align: center; color: white; "> &copy; 2022 Designed by Malak, Ruwaida, Quds, Abrar</p>
+    <br>
+
+</footer>
+</html>

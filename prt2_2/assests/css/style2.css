@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#reg-box {
+  margin-top: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+
+}
+
+label {
+  color: rgba(55, 33, 33, 0.834);
+}
+
+.container {
+  margin-top: -20%;
+  margin: 20%;
+  margin-bottom: -20%;
+  padding: 20px;
+
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: rgb(221, 221, 221);
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color:#a18816;
+  color: white;
+  padding: 12px 15px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+
+
+
+
+/*****************************************/
+
+#pagtitle {
+  color: rgba(55, 33, 33, 0.834);
+}
+
+
+#table {
+  background-color:#a187161e;
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 18%;
+
+}
+
+
+#cst {
+  letter-spacing: 1px;
+  text-align: center;
+
+}
+
+#cst h5{
+  color: rgba(55, 33, 33, 0.644);
+  display: inline;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#cst h5:hover{
+  color:rgba(55, 33, 33, 0.993);
+
+}
+
+#csi{
+  padding: 10px;
+}
+
+#csi img{
+  width: 100%;
+  max-height: 250;
+  padding: 5px;
+  align-self: center;
+  cursor: pointer;
+  
+}
+
+#csi img:hover {
+  box-shadow: 0 0 1px 1px rgb(175, 175, 175);
+  
+}
+
+

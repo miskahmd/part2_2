@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.row{
+    align-content: center;
+}
+
+/*header part*/
+
+#x {
+    position: relative;
+}
+
+.header {
+    min-height: 70vh;
+    width: 100%;
+   /* background-image: linear-gradient(rgba(255, 255, 255, 0.63),rgba(255, 255, 255, 0.63)), url(assests\imgs\indexBG.jpg); */
+    background-color: #a187161e; 
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block
+    
+}
+
+.header img{
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+
+
+.header blockquote{
+    color: rgba(55, 33, 33, 0.644);
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 3px;
+    word-spacing: 7px;
+    position: relative;
+    margin-bottom: 2%;
+}
+
+
+
+.register {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(55, 33, 33, 0.834);
+    border: 1.5px solid #a18816;
+    border-radius: 6px;
+    padding: 15px 35px;
+    font-size: 12px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-weight: 530;
+}
+
+.register:hover{
+    color: aliceblue;
+    background: #a18816;
+    transition: 0.5s;
+}
+
+
+/*search part*/
+h2{
+    padding-top: 5%;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: rgba(55, 33, 33, 0.834);
+    position: relative; 
+}
+
+#img-sbtn {
+    width: 100%;
+    border-radius: 6px;
+    background: transparent;
+}
+
+#img-sbtn:hover{
+    background: #a187161e;
+    transition: 0.5s;
+}
+
+#btn-title{
+    background: #a18816;
+    width: 100%;
+    height: 16%; 
+    text-align: center;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+#btn-title h3{
+    text-align: justify;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color:#f7f7f7;
+    position: relative;
+    cursor: pointer;
+    padding: 10px 35px;
+    display: inline-block;
+
+}
+
+#btn-title h3:hover{
+    color:#000000;
+}
+
+
+
+/*News part*/
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    margin: 25px auto;
+}
+
+.card {
+    width: 20rem;
+}
+
+.card-title {
+    font-weight: 540;
+    letter-spacing: 1px;
+}
+
+.card-text{
+    color: #6f4a0a;
+    word-spacing: 2px;
+}
+
+.card-body{
+    width: 100%;
+    background-color: #a1871614;
+    position: relative;
+}
+
+.card .btn{
+    font-size: smaller;
+}
+
+@media screen and (max-width: 992px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .cards {
+        grid-template-columns:1fr;
+    }
+    
+}
+
+
+
+/*offers & sales part 
+.mySlides { 
+    display: none;
+} */
+
+#sl-img {
+    max-height: 60%;
+    max-width: 70%;
+    padding-left: 30%;
+} 
+
+.slideshow-container {
+    position: relative;
+    margin: auto;
+} 
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    margin-top: -22px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 15px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    text-decoration: none;
+} 
+
+.next {
+    padding-right: 25%;
+    right: 0;
+    border-radius: 3px 0 0 3px;   
+} 
+
+.prev {
+    padding-left: 25%;
+    left: 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.prev:hover, .next:hover {
+    opacity: 50%;
+} 
+
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color:#5b5b5b;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+} 
+
+.active, .dot:hover {
+    background-color: rgb(188, 188, 188);
+}
+
+#sld-view {
+    background: #888888c0;
+    max-height: 20%;
+    max-width: 40%;
+    text-align: center;
+    position: relative;
+    margin: auto;
+}
+
+#sld-view h3{
+    text-align: justify;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color:#f7f7f7;
+    position: relative;
+    cursor: pointer;
+    padding: 8px 33px;
+    display: inline-block;
+}
+
+#sld-view h3:hover{
+    color:#000000;
+}
+  
+
+
+ 
+   
+   
+ 
+
